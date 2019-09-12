@@ -18,17 +18,29 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-embedded@0.6.1/dist/style/style.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-embedded@0.6.1/dist/style/style-embedded.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/alpheios-embedded@0.6.1/dist/alpheios-embedded.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.css"/>
 
   </head>
   <body>
    <script type="text/javascript">
-     document.addEventListener("DOMContentLoaded",function(event) {
-       new Alpheios.Embedded({ clientId: 'alpheios-embedded-demo'}).activate();
-     })
+    document.addEventListener("DOMContentLoaded", function(event) {
+      import ("{{'https://cdn.jsdeliver.net/npm/alpheios-embedded@beta/dist/alpheios-embedded.min.js' | relative_url}}").then(embedLib => {
+
+        window.AlpheiosEmbed.importDependencies({ 
+          mode: 'cdn'
+        }).then(Embedded => {
+          new Embedded({clientId: 'balmas-gh-demo', authEnv: null }).activate();
+        }).catch(e => {
+          console.error(`Import of an embedded library dependencies failed: ${e}`)
+        })
+
+      }).catch(e => {
+        console.error(`Import of an embedded library failed: ${e}`)
+      })
+    });
+
    </script>
+
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">

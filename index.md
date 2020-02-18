@@ -2,9 +2,6 @@
 ܘܠܐ ܐܗܘܐ ܢܘܟܪܝܐ ܡܛܠ ܕܠܝܬ ܚܣܡܐ ܠܘܬ ܡܪܝܐ ܡܪܝܡܐ ܘܡܪܚܡܢܐ ܂ 
 </p>
 
-<p lang="syr" class="alpheios-enabled" direction="rtl" style="font-family: 'Noto Sans Syriac Eastern', sans-serif;">
-ܘܨܡܿܚ ܗܘܐ ܦܓܪܗ ܐܝܟ ܫܡܫܐ. ܘܣܡܘܗܝ ܒܓܠܘܣܩܡܐ ܕܫܝܫܐ. ܫܢܝ ܕܝܢ ܡܢ ܥܠܡܐ ܒܬܡܢܥܣܪ̈ܐ ܒܢܝܣܢ ܕܫܢܬ ܫܒ̈ܥ ܡܐܐ ܘܝܙ ܕܝܘ̈ܢܝܐ. ܕܨ̈ܠܘܬܗ ܢܗܘܘܢ ܠܗܿ ܫܘܪܐ ܠܥܕܬܐ ܘܠܟܠܗܘܢ ܝ̈ܠܝܕܝܗܿ. ܐܡܝܢ.
-</p>
 
 <p lang="lat" class="alpheios-enabled">
 Arma virumque canō, Trōiae quī prīmus ab ōrīs<br/>

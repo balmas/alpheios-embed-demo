@@ -1,3 +1,6 @@
+<p lang="syr" class="alpheios-enabled" direction="rtl" style="font-family: 'Noto Sans Syriac Eastern', sans-serif;">
+ܘܨܡܿܚ ܗܘܐ ܦܓܪܗ ܐܝܟ ܫܡܫܐ. ܘܣܡܘܗܝ ܒܓܠܘܣܩܡܐ ܕܫܝܫܐ. ܫܢܝ ܕܝܢ ܡܢ ܥܠܡܐ ܒܬܡܢܥܣܪ̈ܐ ܒܢܝܣܢ ܕܫܢܬ ܫܒ̈ܥ ܡܐܐ ܘܝܙ ܕܝܘ̈ܢܝܐ. ܕܨ̈ܠܘܬܗ ܢܗܘܘܢ ܠܗܿ ܫܘܪܐ ܠܥܕܬܐ ܘܠܟܠܗܘܢ ܝ̈ܠܝܕܝܗܿ. ܐܡܝܢ.
+</p>
 <p lang="lat" class="alpheios-enabled">
 Arma virumque canō, Trōiae quī prīmus ab ōrīs<br/>
 Ītaliam, fātō profugus, Lāvīniaque vēnit<br/>
@@ -13,9 +16,6 @@ Albānīque patrēs, atque altae moenia Rōmae.<br/>
 πολλῶν δ᾽ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,<br/>
 πολλὰ δ᾽ ὅ γ᾽ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,<br/>
 5ἀρνύμενος ἥν τε ψυχὴν καὶ νόστον ἑταίρων.<br/>
-</p>
-<p lang="syr" class="alpheios-enabled" direction="rtl">
-ܘܨܡܿܚ ܗܘܐ ܦܓܪܗ ܐܝܟ ܫܡܫܐ. ܘܣܡܘܗܝ ܒܓܠܘܣܩܡܐ ܕܫܝܫܐ. ܫܢܝ ܕܝܢ ܡܢ ܥܠܡܐ ܒܬܡܢܥܣܪ̈ܐ ܒܢܝܣܢ ܕܫܢܬ ܫܒ̈ܥ ܡܐܐ ܘܝܙ ܕܝܘ̈ܢܝܐ. ܕܨ̈ܠܘܬܗ ܢܗܘܘܢ ܠܗܿ ܫܘܪܐ ܠܥܕܬܐ ܘܠܟܠܗܘܢ ܝ̈ܠܝܕܝܗܿ. ܐܡܝܢ.
 </p>
 
 

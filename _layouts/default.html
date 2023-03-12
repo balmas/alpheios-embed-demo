@@ -18,7 +18,7 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@3.2.1-dev.5/dist/style/style-components.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/style/style-components.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosanssyriaceastern.css"/>
 
 
@@ -30,9 +30,12 @@
 
         window.AlpheiosEmbed.importDependencies({ 
           mode: 'custom',
-          libs: { components: "https://cdn.jsdelivr.net/npm/alpheios-components@3.2.1-dev.5/dist/alpheios-components.min.js" }
+          libs: { components: "https://cdn.jsdelivr.net/npm/alpheios-components@latet/dist/alpheios-components.min.js" }
         }).then(Embedded => {
-          new Embedded({clientId: 'balmas-gh-demo', authEnv: null }).activate();
+          new Embedded({clientId: 'balmas-gh-demo', authEnv: null,  languageOptions: {
+                    lexiconsShort: {
+                      lat: [ 'https://github.com/alpheios-project/paidea-glossary' ]
+                    }, }).activate();
         }).catch(e => {
           console.error(`Import of an embedded library dependencies failed: ${e}`)
         })

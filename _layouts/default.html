@@ -26,16 +26,20 @@
   <body>
    <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", function(event) {
-      import ("{{'https://cdn.jsdelivr.net/npm/alpheios-embedded@3.1.7/dist/alpheios-embedded.min.js' | relative_url}}").then(embedLib => {
+      import ("{{'https://cdn.jsdelivr.net/npm/alpheios-embedded@latest/dist/alpheios-embedded.min.js' | relative_url}}").then(embedLib => {
 
         window.AlpheiosEmbed.importDependencies({ 
           mode: 'custom',
           libs: { components: "https://cdn.jsdelivr.net/npm/alpheios-components@latet/dist/alpheios-components.min.js" }
         }).then(Embedded => {
-          new Embedded({clientId: 'balmas-gh-demo', authEnv: null,  languageOptions: {
-                    lexiconsShort: {
-                      lat: [ 'https://github.com/alpheios-project/paidea-glossary' ]
-                    }, }).activate();
+          new Embedded({
+            clientId: 'balmas-gh-demo', 
+            authEnv: null,  
+            languageOptions: {
+              lexiconsShort: {
+                lat: [ 'https://github.com/alpheios-project/paidea-glossary' ]
+              }
+            }).activate();
         }).catch(e => {
           console.error(`Import of an embedded library dependencies failed: ${e}`)
         })

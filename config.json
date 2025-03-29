@@ -66,6 +66,17 @@
               },
               "description": "\"Middle Liddell\"",
               "rights": "\"An Intermediate Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University"
+            },
+            "https://github.com/balmas/alpheios-embed-demo": {
+              "urls": {
+                "short": "https://balmas.github.io/alpheios-embed-demo/lexicon/lat-test-defs.dat",
+              },
+              "langs": {
+                "source": "lat",
+                "target": "en"
+              },
+              "description": "\"Test Short Defs\"",
+              "rights": ""
             }
           }
 }

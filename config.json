@@ -71,13 +71,13 @@
               "urls": {
                 "short": "https://balmas.github.io/alpheios-embed-demo/lexicon/grc-test-defs.dat",
                 "index": "https://balmas.github.io/alpheios-embed-demo/lexicon/grc-test-ids.dat",
-                "full": "https://balmas.github.io/alpheios-embed-demo/lexicon/t1.html?"
+                "full": "http://hipatia.fclar.unesp.br/3x/api/gword?"
               },
               "langs": {
                 "source": "grc",
                 "target": "en"
               },
-              "description": "\"Test Custom Defs\"",
+              "description": "\"Test For Hipatia\"",
               "rights": ""
             }
           }

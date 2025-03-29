@@ -1,0 +1,71 @@
+{
+        "lexis-cs": {
+          "cedict": {
+            "target_url": "https://lexis-cs.alpheios.net/index.html"
+          }
+        },
+        "logeion": {
+          "baseurl": "https://api-v2.logeion.org/logeion2/search",
+          "apikey": "AIzaSyBDCq6R_QkHldUpiEvUt3GyReIBhvyj9NI"
+        },
+        "lexicons": {
+            "https://github.com/alpheios-project/mjm": {
+              "urls": {
+                "short": "https://repos1.alpheios.net/lexdata/v2/mjm/dat/grc-mjm-defs.dat"
+              },
+              "langs": {
+                "source": "grc",
+                "target": "en"
+              },
+              "format": { "short" :"text/html" },
+              "description": "Definitions derived from Wilfred E. Major's Core Greek Vocabulary, extended with definitions from the Middle Liddell and Logeion.",
+              "rights_keys": {
+                 "ML": "\"An Intermediate Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University. Edits and additions provided by Vanessa Gorman, University of Nebraska and Logeion.",
+                 "Major": "Wilfred E. Major, Core Greek Vocabulary for the First Two Years of Greek. CPL Online, Winter 2008. Edits and additions provided by Vanessa Gorman, University of Nebraska.",
+                 "ML,Logeion": "\"An Intermediate Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University. Edits and additions provided by Logeion.",
+                 "Logeion": "Logeion (https://logeion.uchicago.edu/), Helma Dik, University of Chicago."
+              }
+            },
+            "https://github.com/alpheios-project/majorplus": {
+              "urls": {
+                "short": "https://repos1.alpheios.net/lexdata/v2/majorplus/dat/grc-mjp-defs.dat"
+              },
+              "langs": {
+                "source": "grc",
+                "target": "en"
+              },
+              "format": { "short" :"text/html" },
+              "description": "Definitions derived from Wilfred E. Major's Core Greek Vocabulary, extended with definitions from the LSJ.",
+              "rights_keys": {
+                 "LSJ" : "\"A Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University. Edits and additions provided by Vanessa Gorman, University of Nebraska.",
+                 "Major": "Wilfred E. Major, Core Greek Vocabulary for the First Two Years of Greek. CPL Online, Winter 2008. Edits and additions provided by Vanessa Gorman, University of Nebraska."
+              }
+            },
+            "https://github.com/alpheios-project/lsj": {
+              "urls": {
+                "short": "https://repos1.alpheios.net/lexdata/v2/lsj/dat/grc-lsj-defs.dat",
+                "index": "https://repos1.alpheios.net/lexdata/v2/lsj/dat/grc-lsj-ids.dat",
+                "full": "https://repos1.alpheios.net/exist/rest/db/xq/lexi-get.xq?lx=lsj&lg=grc&out=html"
+              },
+              "langs": {
+                "source": "grc",
+                "target": "en"
+              },
+              "description": "\"A Greek-English Lexicon\" (Henry George Liddell, Robert Scott)",
+              "rights": "\"A Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University."
+            },
+            "https://github.com/alpheios-project/ml": {
+              "urls": {
+                "short": "https://repos1.alpheios.net/lexdata/v2/ml/dat/grc-ml-defs.dat",
+                "index": "https://repos1.alpheios.net/lexdata/v2/ml/dat/grc-ml-ids.dat",
+                "full": "https://repos1.alpheios.net/exist/rest/db/xq/lexi-get.xq?lx=ml&lg=grc&out=html"
+              },
+              "langs": {
+                "source": "grc",
+                "target": "en"
+              },
+              "description": "\"Middle Liddell\"",
+              "rights": "\"An Intermediate Greek-English Lexicon\" (Henry George Liddell, Robert Scott). Provided by the Perseus Digital Library at Tufts University"
+            }
+          }
+}

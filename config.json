@@ -71,7 +71,7 @@
               "urls": {
                 "short": "https://balmas.github.io/alpheios-embed-demo/lexicon/grc-test-defs.dat",
                 "index": "https://balmas.github.io/alpheios-embed-demo/lexicon/grc-test-ids.dat",
-                "full": "https://balmas.github.io/alpheios-embed-demo/lexicon/t1.html"
+                "full": "https://balmas.github.io/alpheios-embed-demo/lexicon/t1.html?"
               },
               "langs": {
                 "source": "grc",

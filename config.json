@@ -69,10 +69,10 @@
             },
             "https://github.com/balmas/alpheios-embed-demo": {
               "urls": {
-                "short": "https://balmas.github.io/alpheios-embed-demo/lexicon/lat-test-defs.dat"
+                "short": "https://balmas.github.io/alpheios-embed-demo/lexicon/grc-test-defs.dat"
               },
               "langs": {
-                "source": "lat",
+                "source": "grc",
                 "target": "en"
               },
               "description": "\"Test Short Defs\"",

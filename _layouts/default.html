@@ -32,7 +32,7 @@
           mode: 'custom',
           libs: { components: "https://cdn.jsdelivr.net/npm/alpheios-components@latest/dist/alpheios-components.min.js" }
         }).then(Embedded => {
-          new Embedded({
+          embedded = new Embedded({
             clientId: 'balmas-gh-demo', 
             authEnv: null,  
             languageOptions: {
@@ -40,7 +40,9 @@
                 lat: [ 'https://github.com/alpheios-project/paidea-glossary' ]
               }
             }
-          }).activate();
+          });
+          embedded.app._options.configServiceUrl="https://example.com";
+          embedded.activate();
         }).catch(e => {
           console.error(`Import of an embedded library dependencies failed: ${e}`)
         })
